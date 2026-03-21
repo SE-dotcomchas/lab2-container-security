@@ -8,6 +8,8 @@ First Version https://github.com/SE-dotcomchas/lab2-container-security/blob/main
 Second Version after hardening  https://github.com/SE-dotcomchas/lab2-container-security/blob/main/Images/fa3d9101ab7da3ecc83f9eb3a34f48c3.png
 
 I also generated a so called SBOM which is a useful tool to see what your app uses and to potentially find new weaknesses in the app.
+the reason for it is that it is quite important to know what dependecies your application has in order to be able to determine if something is out of date
+for example.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -21,4 +23,12 @@ Unsafe pod https://github.com/SE-dotcomchas/lab2-container-security/blob/main/Im
 Safe pod  https://github.com/SE-dotcomchas/lab2-container-security/blob/main/Images/89ec23a1b3c2687eb48b2de32f4ee396_1.png
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+Reflection
+
+So after having done everything now i can safely say that hardening is not that hard it and it is 100% essential to do
+to keep your applications safe and secure. I also now understand that all applications that you use are important to keep it safe. like protecting yourself
+from deploying bad insecure pods. catching critical vunerabilitys and generating the SBOM, etc. As long as you secure the entire pipeline the odds of releasing bad code will drasticly go down which should be quite easy to do. i would rather not have a CEO or a manager breathing down your neck after launching a new version
+of an app with a critical flaw afterall
+
 
